@@ -10,6 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/prices")
 public class PriceController {
+
     @Autowired
     private PriceRepository priceRepository;
 

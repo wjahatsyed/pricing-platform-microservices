@@ -7,6 +7,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "price")
 public class Price {
+
     // Getters and Setters
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
